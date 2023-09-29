@@ -1,0 +1,97 @@
+        /* CSS cho #contentContainer */ #
+        contentContainer {
+            max - width: 300 px;
+            margin: 0 auto;
+            border: 2 px solid #333;
+    padding: 10px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* CSS cho # buttonContainer * /#
+            buttonContainer {
+                text - align: center;
+                margin - top: 20 px;
+            }
+
+            /* CSS cho nút "Nhập mật khẩu" */
+            #
+            protectedButton {
+                background - color: #007bff;
+    color: # fff;
+                padding: 10 px 20 px;
+                font - size: 18 px;
+                font - weight: bold;
+                border: none;
+                border - radius: 5 px;
+                cursor: pointer;
+                transition: background - color 0.3 s ease - in -out, color 0.3 s ease - in -out;
+            }
+
+            #
+            protectedButton: hover {
+                background - color: #0056b3;
+    color: # fff;
+            }
+
+            /* CSS cho #passwordInputContainer */
+            #
+            passwordInputContainer {
+                text - align: center;
+                margin - top: 20 px;
+                margin: 0 auto;
+                width: 300 px;
+                display: flex;
+                flex - direction: column;
+                align - items: center;
+                justify - content: center;
+            }
+
+            /* CSS cho input mật khẩu */
+            #
+            passwordInput {
+                padding: 10 px;
+                font - size: 16 px;
+                border: 2 px solid #333;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* CSS cho nút "Xác nhận" */
+# passwordInputContainer button {
+                    background - color: #007bff;
+    color: # fff;
+                    padding: 10 px 20 px;
+                    font - size: 18 px;
+                    font - weight: bold;
+                    border: none;
+                    border - radius: 5 px;
+                    cursor: pointer;
+                    transition: background - color 0.3 s ease - in -out, color 0.3 s ease - in -out;
+                }
+
+                /* CSS cho .my-button */
+                    .my - button {
+                    display: inline - block;
+                    padding: 10 px 20 px;
+                    font - size: 18 px;
+                    font - weight: bold;
+                    text - align: center;
+                    text - decoration: none;
+                    background - color: #007bff;
+    color: # fff;
+                    border: 2 px solid #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.my-button:hover {
+    background-color: # 0056 b3;
+                    color: #fff;
+                }
